@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Maxime Fays"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -9,23 +9,23 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Research Associate"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "University of Sheffield", url = "https://www.sheffield.ac.uk/physics/research/pppa/gwrg" }, {name="LIGO", url = "https://www.ligo.caltech.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research interests include signal processing, image processing and signal extraction in low SNR environment"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Signal Processing",
+  "Image processing",
+  "Time-Frequency analysis"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -34,18 +34,18 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "PhD in Gravitational Physics"
+  institution = "Cardiff University"
+  year = 2017
+
+[[education.courses]]
+  course = "Bsc+Msc in Astrophysics"
+  institution = "Aberystwyth University"
   year = 2012
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "BA in Foreign Trade"
+  institution = "Helmo Sainte-Marie"
   year = 2008
 
 # Social/Academic Networking
@@ -59,19 +59,14 @@ user_groups = ["Researchers", "Visitors"]
   link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-  icon = "twitter"
-  icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
-
-[[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.co.uk/citations?user=Wa1mW-MAAAAJ"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/maximefays"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -82,6 +77,4 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Maxime Fays is a research associate at the University of Sheffield. His research interest include signal & image processing applied on time-frequency analysis, with a particuliar focus on signal extraction in low SNR environment through minimal assumptions about signal properties. He leads the project team for 'Long Duration Search' within the LIGO-Burst group which targets minute-long gravitational-wave signals that can potentially be emitted from extreme astrophysical phenomena such as neutron stars or binary black holes.      
