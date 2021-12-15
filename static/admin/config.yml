@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: maximefays/academic-kickstart
 
 publish_mode: editorial_workflow
